@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Examen</title>
+</head>
+<body>
+    <div class="main-container">
+        <header class="view-container left">
+            <h1>Mostrando resultados</h1>
+        </header>
+        <div class="dates-container right">
+            <form class="form" action="#">
+                <div class="input-container">
+                    <label form="name">Nombre</label>
+                    <input type="text" name="Nombre" required>
+                </div>
+                <div class="input-container">
+                    <label form="text">Forma</label>
+                    <select id="forma">
+                        <option value="cuadrado">Cuadrado</option>
+                        <option value="circulo">Círculo</option>
+                    </select>
+                </div>
+                <div class="input-container">
+                    <label form="text">Color</label>
+                    <select id="color">
+                        <input type="color" id="color">
+                    </select>
+                </div>  
+                <button id="save-btn" class="save-btn">Guardar</button>
+            </form>
+        </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
